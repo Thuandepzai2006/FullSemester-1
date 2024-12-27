@@ -1,0 +1,6 @@
+Make Model Year Cost Quantity 
+Ford Taurus 2023 32000 13
+Honda Accord 2024 28500 3
+BMW 3-Series 2023 42000 1
+Mercedes-Benz E-Class 2022 55000 0
+Tesla Model-3 2024 40000 10
