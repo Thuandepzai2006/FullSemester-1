@@ -36,458 +36,458 @@ void RemoveDuplicateLetter(char *str);
 int findMostFrequent(int *arr, int n, int &frequency);
 
 int main(){
-    //Bai 1
-    // int a = 3;
-    // int b = 5;
-    // swap(&a, &b);
-    // cout << a << " " << b;
+//Bai 1
+    int a = 3;
+    int b = 5;
+    swap(&a, &b);
+    cout << a << " " << b;
 
-    //Bai 2
-    // int a = 5;
-    // int b = 3;
-    // cout << sum(&a, &b) << endl;
-    // int tong = *summary(&a, &b);
-    // cout << tong << endl;
+//Bai 2
+    int a = 5;
+    int b = 3;
+    cout << sum(&a, &b) << endl;
+    int tong = *summary(&a, &b);
+    cout << tong << endl;
 
-    //Bai 3
-    // int n;
-    // int *arr;
-    // arr = new int[n];
-    // inputArray(arr, n);
+//Bai 3
+    int n;
+    int *arr;
+    arr = new int[n];
+    inputArray(arr, n);
 
-    //Bai 4
-    // outputArray(arr, n);
+//Bai 4
+    outputArray(arr, n);
 
-    //Bai 5
-    // findMax(arr, n);
-    // int GTLN = *findMaximum(arr, n);
-    // cout << GTLN;
+//Bai 5
+    findMax(arr, n);
+    int GTLN = *findMaximum(arr, n);
+    cout << GTLN;
 
-    //Bai 6
-    // int *duplicateArr = duplicateArray(arr, n);
-    // for(int i = 0; i < n; ++i){
-    //     cout << duplicateArr[i];
-    // }
-    // delete []arr;
+//Bai 6
+    int *duplicateArr = duplicateArray(arr, n);
+    for(int i = 0; i < n; ++i){
+        cout << duplicateArr[i];
+    }
+    delete []arr;
 
-    //Bai 7
-    // int length = 0;
-    // int* longestSubarray = findLongestAscendingSubarray(arr, n, length);
-    // cout << "Longest ascending subarray length: " << length << endl;
-    // cout << "The subarray is: ";
-    // for (int i = 0; i < length; ++i) {
-    //     cout << longestSubarray[i] << " ";
-    // }
-    // cout << endl;
-    // delete[] longestSubarray;
+//Bai 7
+    int length = 0;
+    int* longestSubarray = findLongestAscendingSubarray(arr, n, length);
+    cout << "Longest ascending subarray length: " << length << endl;
+    cout << "The subarray is: ";
+    for (int i = 0; i < length; ++i) {
+        cout << longestSubarray[i] << " ";
+    }
+    cout << endl;
+    delete[] longestSubarray;
 
-    //Bai 9
-    // int n = 8;
-    // int len1 = 3;
-    // int len2 = 6;
-    // int *arr1 = NULL;
-    // arr1 = new int[len1];
-    // int *arr2 = NULL;
-    // arr2 =  new int[len2];
-    // for(int i = 0; i < len1 ; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
-    // }
+//Bai 9
+    int n = 8;
+    int len1 = 3;
+    int len2 = 6;
+    int *arr1 = NULL;
+    arr1 = new int[len1];
+    int *arr2 = NULL;
+    arr2 =  new int[len2];
+    for(int i = 0; i < len1 ; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
+    }
 
-    // for(int i = 0; i < len2; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
-    // }
+    for(int i = 0; i < len2; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
+    }
 
-    // for(int i = 0; i < len1; ++i){
-    //     cout << arr1[i] << " ";
-    // }
+    for(int i = 0; i < len1; ++i){
+        cout << arr1[i] << " ";
+    }
 
-    // cout << "\n";
-    // for(int i = 0; i < len2; ++i){
-    //     cout << arr2[i] << " ";
-    // }
+    cout << "\n";
+    for(int i = 0; i < len2; ++i){
+        cout << arr2[i] << " ";
+    }
     
-    // swapArrays(arr1, len1, arr2, len2);
+    swapArrays(arr1, len1, arr2, len2);
 
-    // cout << "\n";
+    cout << "\n";
 
-    // for(int i = 0; i < len1; ++i){
-    //     cout << arr1[i] << " ";
-    // }
+    for(int i = 0; i < len1; ++i){
+        cout << arr1[i] << " ";
+    }
     
-    // cout << "\n";
+    cout << "\n";
 
-    // for(int i = 0; i < len2; ++i){
-    //     cout << arr2[i] << " ";
-    // }
+    for(int i = 0; i < len2; ++i){
+        cout << arr2[i] << " ";
+    }
 
-    // delete []arr1;
-    // delete []arr2;
+    delete []arr1;
+    delete []arr2;
 
-    //Bai 10
-    // int len1 = 3;
-    // int len2 = 4;
-    // int len3;
-    // int *arr1 = new int[len1];
-    // int *arr2 = new int [len2];
-    // for(int i = 0; i < len1; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
-    // }
+//Bai 10
+    int len1 = 3;
+    int len2 = 4;
+    int len3;
+    int *arr1 = new int[len1];
+    int *arr2 = new int [len2];
+    for(int i = 0; i < len1; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
+    }
 
-    // for(int i = 0; i < len2; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
-    // }
+    for(int i = 0; i < len2; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
+    }
 
-    // int* result = concatTwoArrays(arr1, len1, arr2, len2, len3);
-    // for(int i = 0; i < len3; ++i){
-    //     cout << result[i];
-    // }
+    int* result = concatTwoArrays(arr1, len1, arr2, len2, len3);
+    for(int i = 0; i < len3; ++i){
+        cout << result[i];
+    }
 
-    //Bai 11
-    // int len1 = 3;
-    // int len2 = 4;
-    // int len3;
-    // int *arr1;
-    // arr1 = new int[len1];
-    // int *arr2;
-    // arr2 = new int[len2];
-    // for(int i = 0; i < len1; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
-    // }
+//Bai 11
+    int len1 = 3;
+    int len2 = 4;
+    int len3;
+    int *arr1;
+    arr1 = new int[len1];
+    int *arr2;
+    arr2 = new int[len2];
+    for(int i = 0; i < len1; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
+    }
 
-    // for(int i = 0; i < len2; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
-    // }
+    for(int i = 0; i < len2; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
+    }
 
-    // int *result = merge2Arrays(arr1, len1, arr2, len2, len3);
-    // for(int i = 0; i < len3; ++i){
-    //     cout << result[i] << " ";
-    // }
-    // delete []arr1;
-    // delete []arr2;
+    int *result = merge2Arrays(arr1, len1, arr2, len2, len3);
+    for(int i = 0; i < len3; ++i){
+        cout << result[i] << " ";
+    }
+    delete []arr1;
+    delete []arr2;
 
-    //Bai 12
-    // int row;
-    // int col;
-    // int **mat;
-    // cout << "Nhap so hang: "; cin >> row;
-    // cout << "Nhap so cot: "; cin >> col;
-    // generateRandomMatrix(mat, row, col);
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << mat[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+//Bai 12
+    int row;
+    int col;
+    int **mat;
+    cout << "Nhap so hang: "; cin >> row;
+    cout << "Nhap so cot: "; cin >> col;
+    generateRandomMatrix(mat, row, col);
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << mat[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // for(int i = 0; i < row; ++i){
-    //     delete []mat;
-    // }
-    // delete []mat;
+    for(int i = 0; i < row; ++i){
+        delete []mat;
+    }
+    delete []mat;
 
-    //Bai 13
-    // int len1;
-    // int len2;
-    // cout << "Nhap chieu dai cua mang so mot: "; cin >> len1;
-    // cout << " Nhap chieu dai cua mang so hai: "; cin >> len2;
-    // int *arr1 = new int[len1];
-    // int *arr2 = new int [len2];
-    // int row;
-    // int col;
-    // for(int i = 0; i < len1; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
-    // }
+//Bai 13
+    int len1;
+    int len2;
+    cout << "Nhap chieu dai cua mang so mot: "; cin >> len1;
+    cout << " Nhap chieu dai cua mang so hai: "; cin >> len2;
+    int *arr1 = new int[len1];
+    int *arr2 = new int [len2];
+    int row;
+    int col;
+    for(int i = 0; i < len1; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr1[i];
+    }
 
-    // for(int i = 0; i < len2; ++i){
-    //     cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
-    // }
+    for(int i = 0; i < len2; ++i){
+        cout << "Nhap gia tri " << i << ": "; cin >> arr2[i];
+    }
 
-    // int **result = generateMatrix(arr1, len1, arr2, len2, row, col);
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << result[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    int **result = generateMatrix(arr1, len1, arr2, len2, row, col);
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << result[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // for(int i = 0; i < row; ++i){
-    //     delete []result[i];
-    // }
-    // delete []result;
-    // delete []arr1;
-    // delete []arr2;
+    for(int i = 0; i < row; ++i){
+        delete []result[i];
+    }
+    delete []result;
+    delete []arr1;
+    delete []arr2;
 
-    //Bai 14    
-    // int row, col;
-    // cout << "Nhap so hang: "; cin >> row;
-    // cout << "Nhap so cot: "; cin >> col;
-    // int **mat;
-    // mat = new int *[row];
-    // for(int i = 0; i < row; ++i){
-    //     mat[i] = new int[col];
-    // }
+//Bai 14    
+    int row, col;
+    cout << "Nhap so hang: "; cin >> row;
+    cout << "Nhap so cot: "; cin >> col;
+    int **mat;
+    mat = new int *[row];
+    for(int i = 0; i < row; ++i){
+        mat[i] = new int[col];
+    }
 
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cin >> mat[i][j];
-    //     }
-    // }
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cin >> mat[i][j];
+        }
+    }
 
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << mat[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << mat[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // swapRows(mat, row, col, 0, row - 1);
-    // cout << endl;
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << mat[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    swapRows(mat, row, col, 0, row - 1);
+    cout << endl;
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << mat[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // swapColumns(mat, row, col, 0, col - 1);
-    // cout << endl;
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << mat[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    swapColumns(mat, row, col, 0, col - 1);
+    cout << endl;
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << mat[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // for(int i = 0; i < row; ++i){
-    //     delete []mat[i];
-    // }
-    // delete []mat;
+    for(int i = 0; i < row; ++i){
+        delete []mat[i];
+    }
+    delete []mat;
 
-    //Bai 15
-    // int row, col;
-    // cout << "Nhap so hang: "; cin >> row;
-    // cout << "Nhap so cot: "; cin >> col;
-    // int **mat;
-    // mat = new int *[row];
-    // for(int i = 0; i < row; ++i){
-    //     mat[i] = new int[col];
-    // }
+//Bai 15
+    int row, col;
+    cout << "Nhap so hang: "; cin >> row;
+    cout << "Nhap so cot: "; cin >> col;
+    int **mat;
+    mat = new int *[row];
+    for(int i = 0; i < row; ++i){
+        mat[i] = new int[col];
+    }
 
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cin >> mat[i][j];
-    //     }
-    // }
-    // cout << endl;
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cin >> mat[i][j];
+        }
+    }
+    cout << endl;
 
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << mat[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
-    // cout << endl;
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << mat[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
 
-    // int **result = transposeMatrix(mat, row, col);
-    // for(int i = 0; i < col; ++i){
-    //     for(int j = 0; j < row; ++j){
-    //         cout << result[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    int **result = transposeMatrix(mat, row, col);
+    for(int i = 0; i < col; ++i){
+        for(int j = 0; j < row; ++j){
+            cout << result[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    //Bai 16
-    // int row, col;
-    // cout << "Nhap so hang: "; cin >> row;
-    // cout << "Nhap so cot: "; cin >> col;
-    // int **arr1, **arr2;
-    // arr1 = new int *[row];
-    // for(int i = 0; i < row; ++i){
-    //     arr1[i] = new int[col];
-    // }
+//Bai 16
+    int row, col;
+    cout << "Nhap so hang: "; cin >> row;
+    cout << "Nhap so cot: "; cin >> col;
+    int **arr1, **arr2;
+    arr1 = new int *[row];
+    for(int i = 0; i < row; ++i){
+        arr1[i] = new int[col];
+    }
 
-    // arr2 = new int *[row];
-    // for(int i = 0; i < row; ++i){
-    //     arr2[i] = new int[col];
-    // }
+    arr2 = new int *[row];
+    for(int i = 0; i < row; ++i){
+        arr2[i] = new int[col];
+    }
 
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cin >> arr1[i][j];
-    //     }
-    // }
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cin >> arr1[i][j];
+        }
+    }
 
-    // cout << endl;
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cin >> arr2[i][j];
-    //     }
-    // }
+    cout << endl;
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cin >> arr2[i][j];
+        }
+    }
 
-    // cout << endl;
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << arr1[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    cout << endl;
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << arr1[i][j] << " ";
+        }
+        cout << endl;
+    }
     
-    // cout << endl;
-    // for(int i = 0; i < row; ++i){
-    //     for(int j = 0; j < col; ++j){
-    //         cout << arr2[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    cout << endl;
+    for(int i = 0; i < row; ++i){
+        for(int j = 0; j < col; ++j){
+            cout << arr2[i][j] << " ";
+        }
+        cout << endl;
+    }
     
-    // int resRow;
-    // int resCol;
-    // cout << endl;
-    // int **result = concatenate2MatricesV(arr1, arr2, row, col, resRow, resCol);
-    // for(int i = 0; i < resRow; ++i){
-    //     for(int j = 0; j < resCol; ++j){
-    //         cout << result[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    int resRow;
+    int resCol;
+    cout << endl;
+    int **result = concatenate2MatricesV(arr1, arr2, row, col, resRow, resCol);
+    for(int i = 0; i < resRow; ++i){
+        for(int j = 0; j < resCol; ++j){
+            cout << result[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // int **resultt = concatenate2MatricesH(arr1, arr2, row, col, resRow, resCol);
-    // for(int i = 0; i < resRow; ++i){
-    //     for(int j = 0; j < resCol; ++j){
-    //         cout << resultt[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    int **resultt = concatenate2MatricesH(arr1, arr2, row, col, resRow, resCol);
+    for(int i = 0; i < resRow; ++i){
+        for(int j = 0; j < resCol; ++j){
+            cout << resultt[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // for(int i = 0; i < resRow; ++i){
-    //     delete []arr1[i];
-    //     delete []arr2[i];
-    // }
+    for(int i = 0; i < resRow; ++i){
+        delete []arr1[i];
+        delete []arr2[i];
+    }
 
-    // delete[]arr1;
-    // delete[]arr2;
-    // delete[]result;
-    // delete[]resultt;
+    delete[]arr1;
+    delete[]arr2;
+    delete[]result;
+    delete[]resultt;
 
-    //Bai 17
-    // int arow, brow;
-    // int acol, bcol;
-    // int **arr1;
-    // int **arr2;
-    // cout << "Nhap so hang mang 1: "; cin >> arow;
-    // cout << "Nhap so cot mang 1: "; cin >> acol;
-    // arr1 = new int*[arow];
-    // for(int i = 0; i < arow; ++i){
-    //     arr1[i] = new int[acol];
-    // }
+//Bai 17
+    int arow, brow;
+    int acol, bcol;
+    int **arr1;
+    int **arr2;
+    cout << "Nhap so hang mang 1: "; cin >> arow;
+    cout << "Nhap so cot mang 1: "; cin >> acol;
+    arr1 = new int*[arow];
+    for(int i = 0; i < arow; ++i){
+        arr1[i] = new int[acol];
+    }
 
-    // cout << "Nhap so hang mang 2: "; cin >> brow;
-    // cout << "Nbap so cot mang 2: "; cin >> bcol;
-    // arr2 = new int *[brow];
-    // for(int i = 0; i < brow; ++i){
-    //     arr2[i] = new int[bcol];
-    // }
+    cout << "Nhap so hang mang 2: "; cin >> brow;
+    cout << "Nbap so cot mang 2: "; cin >> bcol;
+    arr2 = new int *[brow];
+    for(int i = 0; i < brow; ++i){
+        arr2[i] = new int[bcol];
+    }
 
-    // for(int i = 0; i < arow; ++i){
-    //     for(int j = 0; j < acol; ++j){
-    //         cout << "Nhap arr1[" << i << "][" << j << "]:"; cin >> arr1[i][j];
-    //     }
-    // }
+    for(int i = 0; i < arow; ++i){
+        for(int j = 0; j < acol; ++j){
+            cout << "Nhap arr1[" << i << "][" << j << "]:"; cin >> arr1[i][j];
+        }
+    }
 
-    // cout << endl;
-    // for(int i = 0; i < brow; ++i){
-    //     for(int j = 0; j < bcol; ++j){
-    //         cout << "Nhap arr2[" << i << "][" << j << "]:"; cin >> arr2[i][j];
-    //     }
-    // }
+    cout << endl;
+    for(int i = 0; i < brow; ++i){
+        for(int j = 0; j < bcol; ++j){
+            cout << "Nhap arr2[" << i << "][" << j << "]:"; cin >> arr2[i][j];
+        }
+    }
 
-    // for(int i = 0; i < arow; ++i){
-    //     for(int j = 0; j < acol; ++j){
-    //         cout << arr1[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    for(int i = 0; i < arow; ++i){
+        for(int j = 0; j < acol; ++j){
+            cout << arr1[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // cout << endl;
-    // for(int i = 0; i < brow; ++i){
-    //     for(int j = 0; j < bcol; ++j){
-    //         cout << arr2[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    cout << endl;
+    for(int i = 0; i < brow; ++i){
+        for(int j = 0; j < bcol; ++j){
+            cout << arr2[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // cout << endl;
-    // int resRow;
-    // int resCol;
-    // int **res;
-    // int result = multiplyMatrices(arr1, arow, acol, arr2, brow, bcol, res, resRow, resCol);
-    // if(result){
-    //     for(int i = 0; i < resRow; ++i){
-    //         for(int j = 0; j < resCol; ++j){
-    //             cout << res[i][j] << " ";
-    //         }
-    //         cout << endl;
-    //     }
-    // }
-    // else{
-    //     cout << "This is invalid";
-    // }
+    cout << endl;
+    int resRow;
+    int resCol;
+    int **res;
+    int result = multiplyMatrices(arr1, arow, acol, arr2, brow, bcol, res, resRow, resCol);
+    if(result){
+        for(int i = 0; i < resRow; ++i){
+            for(int j = 0; j < resCol; ++j){
+                cout << res[i][j] << " ";
+            }
+            cout << endl;
+        }
+    }
+    else{
+        cout << "This is invalid";
+    }
 
-    // for(int i = 0; i < arow; ++i){
-    //     delete []arr1[i];
-    // }
-    // for(int i = 0; i <brow; ++i){
-    //     delete []arr2[i];
-    // }
-    // for(int i = 0; i < resRow; ++i){
-    //     delete res[i];
-    // }
+    for(int i = 0; i < arow; ++i){
+        delete []arr1[i];
+    }
+    for(int i = 0; i <brow; ++i){
+        delete []arr2[i];
+    }
+    for(int i = 0; i < resRow; ++i){
+        delete res[i];
+    }
     
-    // delete []arr1;
-    // delete []arr2;
-    // delete []res;
+    delete []arr1;
+    delete []arr2;
+    delete []res;
 
-    //Bai 18
-    // int **mat;
-    // int nRow;
-    // int nCol;
-    // cout << "Nhap so hang cua ma tran: "; cin >> nRow;
-    // cout << "Nhap so cot cua ma tran: "; cin >> nCol;
-    // mat = new int *[nRow];
-    // for(int i = 0; i < nRow; ++i){
-    //     mat[i] = new int[nCol];
-    // }
-    // int subRow;
-    // int subCol;
-    // for(int i = 0; i < nRow; ++i){
-    //     for(int j = 0; j < nCol; ++j){
-    //         cout << "Mang[" << i << "][" << j << "]: "; cin >> mat[i][j];
-    //     }
-    // }
-    // for(int i = 0; i < nRow; ++i){
-    //     for(int j = 0; j < nCol; ++j){
-    //         cout << mat[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
-    // cout << endl;
-    // cout << "Nhap so hang tim gia tri: "; cin >> subRow;
-    // cout << "Nhap so cot tim gia tri: "; cin >> subCol;
-    // int** result = findSubmatrix(mat, nRow, nCol, subRow, subCol);
-    // cout << "Submatrix with maximum sum:" << endl;
-    // for (int i = 0; i < subRow; ++i) {
-    //     for (int j = 0; j < subCol; ++j) {
-    //         cout << result[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
-    // delete[] result;
+//Bai 18
+    int **mat;
+    int nRow;
+    int nCol;
+    cout << "Nhap so hang cua ma tran: "; cin >> nRow;
+    cout << "Nhap so cot cua ma tran: "; cin >> nCol;
+    mat = new int *[nRow];
+    for(int i = 0; i < nRow; ++i){
+        mat[i] = new int[nCol];
+    }
+    int subRow;
+    int subCol;
+    for(int i = 0; i < nRow; ++i){
+        for(int j = 0; j < nCol; ++j){
+            cout << "Mang[" << i << "][" << j << "]: "; cin >> mat[i][j];
+        }
+    }
+    for(int i = 0; i < nRow; ++i){
+        for(int j = 0; j < nCol; ++j){
+            cout << mat[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
+    cout << "Nhap so hang tim gia tri: "; cin >> subRow;
+    cout << "Nhap so cot tim gia tri: "; cin >> subCol;
+    int** result = findSubmatrix(mat, nRow, nCol, subRow, subCol);
+    cout << "Submatrix with maximum sum:" << endl;
+    for (int i = 0; i < subRow; ++i) {
+        for (int j = 0; j < subCol; ++j) {
+            cout << result[i][j] << " ";
+        }
+        cout << endl;
+    }
+    delete[] result;
 
-    // for (int i = 0; i < nRow; ++i) {
-    //     delete[] mat[i];
-    // }
-    // delete[] mat;
+    for (int i = 0; i < nRow; ++i) {
+        delete[] mat[i];
+    }
+    delete[] mat;
 
-    //Bai 19
+//Bai 19
     int arr[] = {1, 2, 5, 2, 1, 7, 9, 1};
     int n = sizeof(arr) / sizeof(arr[0]);
 

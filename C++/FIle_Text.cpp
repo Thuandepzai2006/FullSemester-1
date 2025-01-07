@@ -152,20 +152,20 @@ int main(){
     DisplayInv(inventory);
     
     cout << endl;
-    // Car car1 = {"Ford", "Taurus", 2023, 7, 32000};
-    // Car car2 = {"Jojo", "Madara", 2024, 10, 29560};
-    // AddCar(inventory, car1);
-    // AddCar(inventory, car2);
-    // DisplayInv(inventory);
+    Car car1 = {"Ford", "Taurus", 2023, 7, 32000};
+    Car car2 = {"Jojo", "Madara", 2024, 10, 29560};
+    AddCar(inventory, car1);
+    AddCar(inventory, car2);
+    DisplayInv(inventory);
     
-    // cout << endl;
-    // RemoveCar(inventory, car2);
-    // SellCar(inventory, "Taurus", 3, 3, 2024);
-    // DisplayInv(inventory);
-    // double TotalSale = CalculateSale("Sale.txt", inventory, 3, 2024);
-    // cout << "TotalSale in this month and year is: " << "$" << TotalSale << endl;
-    // UpdateData("data 1-1.txt", inventory);
-    // searchCar(inventory, "Honda");
+    cout << endl;
+    RemoveCar(inventory, car2);
+    SellCar(inventory, "Taurus", 3, 3, 2024);
+    DisplayInv(inventory);
+    double TotalSale = CalculateSale("Sale.txt", inventory, 3, 2024);
+    cout << "TotalSale in this month and year is: " << "$" << TotalSale << endl;
+    UpdateData("data 1-1.txt", inventory);
+    searchCar(inventory, "Honda");
     sortInv(inventory);
     return 0;
 }
@@ -281,20 +281,20 @@ int main(){
     ReadData(inventory, "data 1-2.txt");
     Display(inventory);
 
-    // cout << endl;
-    // Player player1 = {"Dou Messi", 2, 3};
-    // // AddPlayer(inventory, player1);
-    // // UpdateData(inventory, "data 1-2.txt");
-    // Player player2 = {"Zukanopro", 100, 200};
-    // AddPlayer(inventory, player2);
-    // Display(inventory);
-    // cout << endl;
-    // FindBestPlayer(inventory);
-
-    // cout << endl;
-    // RemovePlayer(inventory, "Dou Messi");
+    cout << endl;
+    Player player1 = {"Dou Messi", 2, 3};
+    // AddPlayer(inventory, player1);
     // UpdateData(inventory, "data 1-2.txt");
-    // Display(inventory);
+    Player player2 = {"Zukanopro", 100, 200};
+    AddPlayer(inventory, player2);
+    Display(inventory);
+    cout << endl;
+    FindBestPlayer(inventory);
+
+    cout << endl;
+    RemovePlayer(inventory, "Dou Messi");
+    UpdateData(inventory, "data 1-2.txt");
+    Display(inventory);
     SearchPlayer(inventory, "Phil Foden");
     return 0;
 }

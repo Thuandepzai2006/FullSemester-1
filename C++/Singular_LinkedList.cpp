@@ -36,74 +36,75 @@ bool removeElement(List &L, int key);
 void Input(List &L, int value);
 
 int main(){
-    //Bai 1
-    // Node *node = new Node[42];
+//Bai 1
+    Node *node = new Node[42];
 
-    //Bai 2
-    // List mylist = createList(node);
+//Bai 2
+    List mylist = createList(node);
 
     List mylist;
     mylist.pHead = nullptr;
     mylist.pTail = nullptr;
 
-    //Bai 3
+//Bai 3
     // addHead(mylist, 0);
 
-    //bai 19
-    int val;
-    Input(mylist, val);
-    //Bai 4
-    // addTail(mylist, 20);
-    // addTail(mylist, 20);
-    // addTail(mylist, 30);
-    // addTail(mylist, 20);
-    // addTail(mylist, 50);
+//Bai 4
+    addTail(mylist, 20);
+    addTail(mylist, 20);
+    addTail(mylist, 30);
+    addTail(mylist, 20);
+    addTail(mylist, 50);
     cout << "Inital list: ";
     displayList(mylist);
 
-    //Bai 5
-    // removeHead(mylist);
+//Bai 5
+    removeHead(mylist);
 
-    //bai 6
-    // removeTail(mylist);
+//bai 6
+    removeTail(mylist);
 
-    //bai 7
-    // removeAll(mylist);
+//bai 7
+    removeAll(mylist);
 
-    //Bai 8
-    // removeBefore(mylist, 30);
+//Bai 8
+    removeBefore(mylist, 30);
 
-    //Bai 9
-    // removeAfter(mylist, 20);
+//Bai 9
+    removeAfter(mylist, 20);
 
-    //Bai 10
-    // addPos(mylist, 30, 3);
+//Bai 10
+    addPos(mylist, 30, 3);
 
-    //Bai 11
-    // removePos(mylist, 1);
+//Bai 11
+    removePos(mylist, 1);
 
-    //Bai 12
-    // addBefore(mylist, 15, 20);
+//Bai 12
+    addBefore(mylist, 15, 20);
 
-    //Bai 13
-    // addAfter(mylist, 15, 50);
+//Bai 13
+    addAfter(mylist, 15, 50);
     
-    //Bai 14
-    // printList(mylist);
+//Bai 14
+    printList(mylist);
 
-    //Bai 15
-    // cout << "The number of Element in the list: " << countElements(mylist) << endl;
+//Bai 15
+    cout << "The number of Element in the list: " << countElements(mylist) << endl;
 
-    //Bai 16
-    // mylist = reverseList(mylist);
+//Bai 16
+    mylist = reverseList(mylist);
 
-    //Bai 17
-    // removeDuplicate(mylist);
+//Bai 17
+    removeDuplicate(mylist);
 
-    //Bai 18
+//Bai 18
     removeElement(mylist, 20);
     cout << "My list after remove: ";
     displayList(mylist);
+
+//bai 19
+    int val;
+    Input(mylist, val);
     return 0;
 }
 
